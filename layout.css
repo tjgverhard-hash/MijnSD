@@ -1,0 +1,482 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+NZ+Basic+Guides&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Honk:MORF@15&family=Playwrite+NZ+Basic+Guides&display=swap');
+/*Start of Catagory A*/
+.MainPage {   
+    background-color: rgba(0, 0, 0, 0.535);
+    background-size: cover;
+    font-family:'Anton';
+    overflow-y: hidden;
+    overflow-x: hidden;
+}
+.MainPage li {
+    position: relative; left: 1000px;
+    display: inline-block;
+    font-style: italic;
+    padding: 20px;
+}
+
+
+
+    
+    h1A    {
+        color: rgb(97, 243, 0);
+        font-size: 50px;
+        font-family: 'Playwrite NZ Basic Guides', cursive;
+        position: relative; top: 20px; left: 500px;
+        text-shadow:
+        0 0 5px rgb(97, 243, 0),
+        0 0 10px rgb(97, 243, 0),
+        0 0 20px rgb(97, 243, 0),
+        0 0 40px rgb(97, 243, 0);        
+    }
+    pA {
+        color: #ffffff;
+        font-family: 'Playwrite NZ  Guides', cursive;
+        font-size: 20px;
+        position:relative; top: 150px;
+        float: left; height: 100px;
+        line-height: 1.5;
+          text-shadow:
+    0 0 5px rgb(255, 255, 255),
+    0 0 10px rgb(255, 255, 255),
+    0 0 20px rgb(255, 255, 255),
+    0 0 40px rgb(255, 255, 255);
+
+    }
+
+
+    a {
+        font-family: 'Press Start 2P', cursive;
+        font-size: 20px;
+    }
+    .Characters {
+        color: rgb(255, 255, 255);
+        text-shadow: 
+        0 0 5px rgb(0, 255, 0),
+        0 0 10px rgb(0, 255, 0),
+        0 0 20px rgb(0, 255, 0),
+        0 0 40px rgb(0, 255, 0);
+    }
+    .Characters:hover {
+        color: rgb(7, 233, 7);
+        text-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    }
+
+    .Story {
+        color:rgb(255, 255, 255);
+        text-shadow: 
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
+    }
+
+    .Story:hover {
+        color:rgb(255, 255, 255);
+        text-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    }
+    .Heistpage {
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(170, 0, 131),
+        0 0 10px rgb(170, 0, 131),
+        0 0 20px rgb(170, 0, 131),
+        0 0 40px rgb(170, 0, 131);
+    }
+    .Heistpage:hover {
+        color: #ea00ff;
+        text-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    } 
+    /*End of Catagory A*/    
+
+/*Start of Catagory B*/
+     .Chartss { 
+        background-image : url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
+        background-size: cover;
+        font-family: 'press start 2p', cursive;
+        width: 100%;
+        overflow-x: hidden;
+        overflow-y: hidden;
+    }
+    li {
+        display: inline-block;
+        font-style: italic;
+        position: relative; top: 0px; left: 1400px;
+    }
+    a {
+        text-decoration: none;
+    }
+    .home {
+        color: rgb(255, 255, 255);
+        text-shadow: 
+        0 0 5px rgb(0, 255, 0),
+        0 0 10px rgb(0, 255, 0),
+        0 0 20px rgb(0, 255, 0),
+        0 0 40px rgb(0, 255, 0);
+    }
+    .home:hover {
+        color: rgb(7, 233, 7);
+        text-shadow: 
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    }
+
+    .story {
+        color:rgb(255, 255, 255);
+        text-shadow:
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
+    }
+
+    .story:hover {
+        color:rgb(255, 247, 0);
+        text-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    }
+    .Heist {
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(170, 0, 131),
+        0 0 10px rgb(170, 0, 131),
+        0 0 20px rgb(170, 0, 131),
+        0 0 40px rgb(170, 0, 131);
+    }
+    .Heist:hover {
+        color: #ea00ff;
+        text-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    }
+    h1B {
+        position:relative; top:50px; left: 20px;
+        font-size: 20px;
+        color: #000000;
+        text-shadow: 
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
+    }
+    h3B{ 
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(0, 119, 255),
+        0 0 10px rgb(0, 119, 255),
+        0 0 20px rgb(0, 119, 255),
+        0 0 40px rgb(0, 119, 255);
+        font-size:25px;
+        font-family:'Press Start 2P', cursive;
+        position: relative; top:20px;
+    }
+     h2B {
+         color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(30, 255, 0),
+        0 0 10px rgb(30, 255, 0),
+        0 0 20px rgb(30, 255, 0),
+        0 0 40px rgb(30, 255, 0);
+        font-size: 25px;
+        position: relative; top: 20px;
+    }
+
+    h4B {
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 20px rgb(255, 0, 0),
+        0 0 40px rgb(255, 0, 0);
+        font-size: 25px;
+        position: relative; top: 20px; 
+    }
+
+
+    p2B {
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(30, 255, 0),
+        0 0 10px rgb(30, 255, 0),
+        0 0 20px rgb(30, 255, 0),
+        0 0 40px rgb(30, 255, 0);
+        font-size: 12px;
+        position: relative; top: 30px;
+    }
+    p3B {
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(0, 119, 255),
+        0 0 10px rgb(0, 119, 255),
+        0 0 20px rgb(0, 119, 255),
+        0 0 40px rgb(0, 119, 255);
+        font-size: 12px;
+        position: relative; top: 30px;
+    }
+    p4B {
+        color: #ffffff;
+        text-shadow: 
+        0 0 5px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 20px rgb(255, 0, 0),
+        0 0 40px rgb(255, 0, 0);
+        font-size: 12px;
+        position: relative; top: 20px;
+    }
+     img.frank {
+         position: relative; top: 50px; right: 200px;
+     }
+     img.Mich {
+         position: relative; right: 100px;
+        }
+     .Chartss .columnn {
+         float: left;
+         width: 33.33%;
+         padding: 20px;
+         position: relative; top: 500px;
+         overflow: visible;
+         
+     }
+     /*End of Catagory B*/
+
+     /*Start of Catagory C*/
+     .Heistt {   
+         background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
+         background-size: cover;
+         font-family: 'press start 2p', cursive;
+         margin: auto;
+         overflow: hidden;
+         position: relative;
+         min-height: 100vh;
+     }
+     
+     .Heistt::before {
+         content: "";
+         position: absolute;
+         inset: 0;
+         background-image: inherit;
+         background-size: cover;
+         background-position: center;
+         filter: blur(8px);
+         transform: scale(1.05);
+         z-index: 0;
+     }
+     
+     .Heistt > * {
+         position: relative;
+         z-index: 1;
+     }
+     
+     hC1 {
+         color: #000000;
+         text-shadow:
+         0 0 5px rgb(255, 255, 255),
+         0 0 10px rgb(255, 255, 255),
+         0 0 20px rgb(255, 255, 255),
+         0 0 40px rgb(255, 255, 255);
+         font-size: larger;
+         position: relative; top:50px; left:100px;
+     }
+     
+     .Cayo, .Diamond, .Dooms {
+         position: relative; right: 280px; 
+     }
+     ul, li {
+         position: relative; right: 100px;
+         padding: 20px;
+     }
+         a {
+             text-decoration: none;
+         }
+         .home {
+             color: rgb(255, 255, 255);
+             text-shadow:
+                0 0 5px rgb(0, 255, 0),
+                0 0 10px rgb(0, 255, 0),
+                0 0 20px rgb(0, 255, 0),
+                0 0 40px rgb(0, 255, 0);
+         }
+         .home:hover {
+             color: rgb(0, 255, 0);
+             text-shadow: rgb(255, 255, 255) 2px 2px 0px;
+         }
+     
+         .story {
+             color:rgb(255, 255, 255);
+             text-shadow: 
+                0 0 5px gold,
+                0 0 10px gold,
+                0 0 20px gold,
+                0 0 40px gold;
+         }
+     
+         .story:hover {
+             color:rgb(255, 247, 0);
+             text-shadow: rgb(255, 255, 255) 2px 2px 0px;
+         }
+         .Charachters {
+             color: #ffffff;
+             text-shadow:
+             0 0 5px rgb(170, 0, 131),
+             0 0 10px rgb(170, 0, 131),
+             0 0 20px rgb(170, 0, 131),
+             0 0 40px rgb(170, 0, 131);
+         }
+         .Charachters:hover {
+             color: #6a326f;
+             text-shadow: 
+             0 0 5px rgb(255, 255, 255),
+             0 0 10px rgb(255, 255, 255),
+             0 0 20px rgb(255, 255, 255),
+             0 0 40px rgb(255, 255, 255);
+         }
+          
+         h2C, h1C {
+             position: relative; top: 600px; right: 1000px;
+             font-size:larger;
+         }
+         h3C {
+             position: relative;top: 600px; right: 900px;
+         }
+         .Dooms {
+             color: #ffffff;
+             text-shadow:
+             0 0 5px rgb(255, 0, 0),
+             0 0 10px rgb(255, 0, 0),
+             0 0 20px rgb(255, 0, 0),
+             0 0 40px rgb(255, 0, 0);
+     
+         }
+         .Dooms:hover {
+             color: #bf0000;
+             text-shadow: rgb(255, 255, 255) 2px 2px 0px;
+         }
+         .Cayo {
+             color: #ffffff;
+             text-shadow:
+             0 0 5px rgb(255, 215, 0),
+             0 0 10px rgb(255, 215, 0),
+             0 0 20px rgb(255, 215, 0),
+             0 0 40px rgb(255, 215, 0);
+         }
+         .Cayo:hover {
+             color: #ffffff;
+             text-shadow: 
+             0 0 5px  rgb(254, 241, 0),
+             0 0 10px rgb(254, 241, 0),
+             0 0 20px rgb(254, 241, 255),
+             0 0 40px rgb(254, 241, 255);
+         }
+         .Diamond {
+             color: #ffffff;
+             text-shadow: 
+             0 0 5px rgb(0, 119, 255),
+             0 0 10px rgb(0, 119, 255),
+             0 0 20px rgb(0, 119, 255),
+             0 0 40px rgb(0, 119, 255);
+         } 
+         .Diamond:hover {
+             color: #ffffff;
+             text-shadow:
+             0 0 5px rgb(0, 98, 255),
+             0 0 10px rgb(0, 98, 255),
+             0 0 20px rgb(0, 98, 255),
+             0 0 40px rgb(0, 98, 255);
+         }
+        
+             /*End of Catagory C*/   
+             
+
+         /*Start of Catagory D*/
+         .SStory::before {   
+             content: "";
+             position: absolute;
+             inset: 0;
+             background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
+             background-size: cover;
+             background-position: center;
+             filter: blur(8px);
+             transform: scale(1.05);
+             z-index: -1;
+         }
+
+         .SStory li {
+             padding: 20px;
+             display: inline-block;
+         }
+
+            .homE {
+             color: rgb(255, 255, 255);
+             text-shadow: 
+                0 0 5px rgb(0, 255, 0),
+                0 0 10px rgb(0, 255, 0),
+                0 0 20px rgb(0, 255, 0),
+                0 0 40px rgb(0, 255, 0);
+         }
+         .homE:hover {
+             color: rgb(0, 255, 0);
+             text-shadow: 
+             0 0 5px rgb(255, 255, 255),
+             0 0 10px rgb(255, 255, 255),
+            0 0 20px rgb(255, 255, 255),
+            0 0 40px rgb(255, 255, 255);
+         }
+
+         .CharacterS {
+             color: #ffffff;
+             text-shadow:
+             0 0 5px rgb(170, 0, 131),
+             0 0 10px rgb(170, 0, 131),
+             0 0 20px rgb(170, 0, 131),
+             0 0 40px rgb(170, 0, 131);
+         }
+         .CharacterS:hover {
+             color: #6a326f;
+             text-shadow: 
+             0 0 5px rgb(255, 255, 255),
+             0 0 10px rgb(255, 255, 255),
+             0 0 20px rgb(255, 255, 255),
+             0 0 40px rgb(255, 255, 255);
+         }
+
+         .Heistpagee {
+             color: #ffffff;
+             text-shadow: 
+             0 0 5px rgb(255, 215, 0),
+             0 0 10px rgb(255, 255, 0),
+             0 0 20px rgb(255, 215, 0),
+             0 0 40px rgb(255, 215, 0);
+         }
+         .Heistpagee:hover {
+             color: #ffffff;
+             text-shadow:
+             0 0 5px  rgb(255, 255, 255),
+             0 0 10px rgb(255, 255, 255),
+             0 0 20px rgb(255, 255, 255),
+             0 0 40px rgb(255, 255, 255);
+         }
+         .columnn {
+             position:relative; bottom:100px;
+         }
+         /* end of catagory D*/
