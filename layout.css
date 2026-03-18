@@ -9,6 +9,8 @@
     font-family:'Anton';
     overflow-y: hidden;
     overflow-x: hidden;
+    width: 100%;
+    height: 100%;
 }
 .MainPage li {
     position: relative; left: 1000px;
