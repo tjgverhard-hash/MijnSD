@@ -365,6 +365,14 @@ html, body {
         margin: 20px auto;
         display: block;
     }
+
+    img.trevor {
+        max-width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+    
     
     .Chartss .columnn {
         width: 100%;
