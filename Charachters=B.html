@@ -16,8 +16,10 @@ body {
 
 body.Chartss {
   position: relative;
-  overflow-x: auto;
+  overflow-x: hidden;
   overflow-y: auto;
+  --columns-offset-x: 0px;
+  --columns-offset-y: 100px;
 }
 
 body.Chartss::before {
@@ -38,11 +40,14 @@ body.Chartss > * {
 }
 
 .column {
-  width: 100%;
-  padding: 20px;
+  float: left;
+  position: relative;
+  width: 33.33%;
+  padding: 10px;
+  height: auto;
+  min-height: 450px;
   overflow-y: auto;
   overflow-x: hidden;
-  margin: 20px 0;
   scrollbar-color: rgba(0, 0, 0, 0) transparent;
   -ms-overflow-style: none;
 }
@@ -52,11 +57,7 @@ body.Chartss > * {
 }
 
 .row {
-  margin-top: 20px;
-  display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
-  gap: 20px;
+  margin-top: 320px;
 }
 
 .row:after {
@@ -65,19 +66,20 @@ body.Chartss > * {
   clear: both;
 }
 
-@media (min-width: 768px) {
+@media (max-width: 1024px) {
   .column {
     width: 48%;
-    display: inline-block;
-    vertical-align: top;
   }
 }
 
-@media (min-width: 1024px) {
+@media (max-width: 768px) {
   .column {
-    width: 31%;
-    display: inline-block;
-    vertical-align: top;
+    width: 100%;
+    margin-top: 20px;
+  }
+  
+  .row {
+    margin-top: 20px;
   }
 }
 </style>
@@ -92,8 +94,8 @@ body.Chartss > * {
 </ul>
 
 <div class="row">
-  <div class="column Franklin" style="background-color: rgba(0, 0, 0, 0);">
-    <h2B>Franklin</h2B>
+  <div class="column Michael" style="background-color: rgba(0, 0, 0, 0);">
+    <h3B>Michael</h3B>
     <p2B>Franklin Clinton is one of the three main playable characters in the video game Grand Theft Auto V, created by the company Rockstar Games. He is a young man who grew up in a poor neighborhood in the city of Los Santos. Franklin’s life has not been easy, and many of his choices are shaped by the environment he grew up in.
 
 Franklin is an ambitious and intelligent person. Unlike many people around him, he does not want to stay stuck in street crime forever. At the start of the story, he works as a repo man. This means he takes back cars from people who cannot pay for them. He works for a dishonest car dealer named Simeon Yetarian. Franklin often feels that this job is unfair and that Simeon takes advantage of him.
