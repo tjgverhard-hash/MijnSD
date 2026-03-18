@@ -425,6 +425,7 @@ html, body {
         }
     }
      /*End of Catagory B*/
+     /*Start of Catagory C*/
 
      .Heistt {   
          background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
@@ -434,8 +435,8 @@ html, body {
          position: relative;
          min-height: 100vh;
          padding: 20px;
-         overflow-x: auto;
-         overflow-y: auto;
+         overflow-x: hidden;
+         overflow-y: hidden;
      }
      
      .Heistt::before {
