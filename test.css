@@ -1,22 +1,13 @@
-.Test {
-    background-color: black;
-    width: 100%;
-    min-height: 100vh;
-    overflow-x: auto;
-    overflow-y: auto;
-    padding: 20px;
-    box-sizing: border-box;
+.tests {
+    background-color: rgb(255, 255, 255);
 }
 
-h1Dum {
+a.test {
+    color: rgb(255, 0, 0);
+    font-size: 100px;
+}
+
+a.yes {
     color: red;
-    text-shadow:
-    0 0 5px rgb(255, 0, 0),
-    0 0 10px rgb(255, 0, 0),
-    0 0 15px rgb(255, 0, 0),
-    0 0 20px rgb(255, 0, 0),
-    0 0 40px rgb(255, 0, 0);
-    font-size: clamp(4rem, 25vw, 15rem);
-    text-align: center;
-    word-wrap: break-word;
+    font-size: 100px;
 }

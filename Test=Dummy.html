@@ -1,23 +1,31 @@
 <!DOCTYPE html>
-<html>
 <meta charset="utf-8">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <style>
-        html, h1Dum {
-            animation: textcolorchange 1s infinite;
-        }
+<style>
+    * {
+        box-sizing: border-box;
+    }
 
-        @keyframes textcolorchange {
-            0% {color: red;}
-            50% {color: black;}
-            100% {color: red;}
-        }
-    </style>
+    .column {
+        float: left;
+        width: 33.33%;
+        height: 300px;
+        padding: 10px;
+        position:relative; top: 300px;
+    }
+</style>
+<html>
     <head>
+        <title>Pagina</title>
         <link rel="stylesheet" href="test.css">
-        <title>Testing page</title>
     </head>
-    <body class="Test">
-        <h1Dum>This is a Testing Page</h1Dum>
+    <body class="tests">
+        <div class="row">
+            <div class="column" style="background-color: rgb(150, 150, 150);">
+            </div>
+            <div class="column" style="background-color: rgb(140 , 140, 140);">
+            </div>
+            <div class="column" style="background-color: rgb(130, 130, 130);">
+            </div>
+        </div>
     </body>
 </html>

@@ -289,6 +289,26 @@ html, body {
         0 0 40px rgb(255, 255, 255);
         margin: 20px 0;
     }
+    h2B {
+        color: #ffffff;
+       text-shadow: 
+       0 0 5px rgb(30, 255, 0),
+       0 0 10px rgb(30, 255, 0),
+       0 0 20px rgb(30, 255, 0),
+       0 0 40px rgb(30, 255, 0);
+       font-size: clamp(1.25rem, 4vw, 1.75rem);
+       margin: 15px 0;
+   }
+   p2B {
+       color: #ffffff;
+       text-shadow: 
+       0 0 5px rgb(30, 255, 0),
+       0 0 10px rgb(30, 255, 0),
+       0 0 20px rgb(30, 255, 0),
+       0 0 40px rgb(30, 255, 0);
+       font-size: clamp(0.8rem, 2.5vw, 1rem);
+       margin: 10px 0;
+   }
     h3B{ 
         color: #ffffff;
         text-shadow: 
@@ -300,17 +320,16 @@ html, body {
         font-family:'Press Start 2P', cursive;
         margin: 15px 0;
     }
-     h2B {
-         color: #ffffff;
+    p3B {
+        color: #ffffff;
         text-shadow: 
-        0 0 5px rgb(30, 255, 0),
-        0 0 10px rgb(30, 255, 0),
-        0 0 20px rgb(30, 255, 0),
-        0 0 40px rgb(30, 255, 0);
-        font-size: clamp(1.25rem, 4vw, 1.75rem);
-        margin: 15px 0;
+        0 0 5px rgb(0, 119, 255),
+        0 0 10px rgb(0, 119, 255),
+        0 0 20px rgb(0, 119, 255),
+        0 0 40px rgb(0, 119, 255);
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+        margin: 10px 0;
     }
-
     h4B {
         color: #ffffff;
         text-shadow: 
@@ -321,24 +340,13 @@ html, body {
         font-size: clamp(1.25rem, 4vw, 1.75rem);
         margin: 15px 0;
     }
-
-    p2B {
+    p4B {
         color: #ffffff;
         text-shadow: 
-        0 0 5px rgb(30, 255, 0),
-        0 0 10px rgb(30, 255, 0),
-        0 0 20px rgb(30, 255, 0),
-        0 0 40px rgb(30, 255, 0);
-        font-size: clamp(0.8rem, 2.5vw, 1rem);
-        margin: 10px 0;
-    }
-    p3B {
-        color: #ffffff;
-        text-shadow: 
-        0 0 5px rgb(0, 119, 255),
-        0 0 10px rgb(0, 119, 255),
-        0 0 20px rgb(0, 119, 255),
-        0 0 40px rgb(0, 119, 255);
+        0 0 5px rgb(255, 0, 0),
+        0 0 10px rgb(255, 0, 0),
+        0 0 20px rgb(255, 0, 0),
+        0 0 40px rgb(255, 0, 0);
         font-size: clamp(0.8rem, 2.5vw, 1rem);
         margin: 10px 0;
     }
@@ -363,17 +371,7 @@ html, body {
         font-size: clamp(0.8rem, 2.5vw, 1rem);
         margin: 10px 0;
     }
-    p4B {
-        color: #ffffff;
-        text-shadow: 
-        0 0 5px rgb(255, 0, 0),
-        0 0 10px rgb(255, 0, 0),
-        0 0 20px rgb(255, 0, 0),
-        0 0 40px rgb(255, 0, 0);
-        font-size: clamp(0.8rem, 2.5vw, 1rem);
-        margin: 10px 0;
-    }
-     
+    
     img.frank {
         max-width: 90%;
         height: auto;
