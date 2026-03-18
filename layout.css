@@ -450,8 +450,18 @@ html, body {
          width: 30%;
          padding: 10px;
          margin: 10px;
-         background-size: cover;
-         background-position: center;
+         display: flex;
+         flex-direction: column;
+         align-items: center;
+         justify-content: flex-start;
+     }
+
+     .Heistt .heist-image {
+         width: 100%;
+         height: auto;
+         max-height: 55vh;
+         object-fit: contain;
+         display: block;
      }
      
      .Heistt .row {
@@ -518,11 +528,13 @@ html, body {
           
          h2C, h1C {
              font-size: clamp(1.25rem, 4vw, 2rem);
-             margin: 20px 0;
+             margin: 12px 0 0;
+             text-align: center;
          }
          h3C {
              font-size: clamp(1rem, 3vw, 1.5rem);
-             margin: 15px 0;
+             margin: 12px 0 0;
+             text-align: center;
          }
          .Dooms {
              color: #ffffff;
