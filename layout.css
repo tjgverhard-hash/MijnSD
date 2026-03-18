@@ -164,7 +164,7 @@ html, body {
     
     .Chartss .column {
         float: left;
-        width: 33.33%;
+        width: 24.1%;
         padding: 10px;
         height: 100%;
         overflow-y: scroll;
@@ -341,6 +341,27 @@ html, body {
         font-size: clamp(0.8rem, 2.5vw, 1rem);
         margin: 10px 0;
     }
+    h5B {
+        color: rgb(255, 255, 255);
+        text-shadow:
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
+        font-size: clamp(1.25rem, 4vw, 1.75rem);
+        font-family: 'Press Start 2P', cursive;
+        margin: 15px 0;
+    }
+    p5B {
+        color: rgb(255, 255, 255);
+        text-shadow:
+        0 0 5px gold,
+        0 0 10px gold,
+        0 0 20px gold,
+        0 0 40px gold;
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+        margin: 10px 0;
+    }
     p4B {
         color: #ffffff;
         text-shadow: 
@@ -366,14 +387,19 @@ html, body {
         display: block;
     }
 
+    img.lester {
+        max-width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+
     img.trevor {
         max-width: 90%;
         height: auto;
         margin: 20px auto;
         display: block;
     }
-    
-    
     .Chartss .columnn {
         width: 100%;
         padding: 20px;
