@@ -2,56 +2,84 @@
 @import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Playwrite+NZ+Basic+Guides&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Honk:MORF@15&family=Playwrite+NZ+Basic+Guides&display=swap');
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body {
+    width: 100%;
+    height: auto;
+}
+
 /*Start of Catagory A*/
 .MainPage {   
     background-color: rgba(0, 0, 0, 0.535);
     background-size: cover;
     font-family:'Anton';
-    overflow-y: hidden;
-    overflow-x: hidden;
-    width: auto;
-    height: auto;
+    width: 100%;
+    min-height: 100vh;
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
 }
+
+.MainPage ul {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    width: 100%;
+    margin-bottom: 30px;
+    gap: 20px;
+    list-style: none;
+}
+
 .MainPage li {
-    position: relative; left: 1000px;
     display: inline-block;
     font-style: italic;
-    padding: 20px;
+    padding: 15px;
 }
 
 
 
-    
     h1A    {
         color: rgb(97, 243, 0);
-        font-size: 50px;
+        font-size: clamp(2rem, 8vw, 3.5rem);
         font-family: 'Playwrite NZ Basic Guides', cursive;
-        position: relative; top: 20px; left: 500px;
+        text-align: center;
         text-shadow:
         0 0 5px rgb(97, 243, 0),
         0 0 10px rgb(97, 243, 0),
         0 0 20px rgb(97, 243, 0),
-        0 0 40px rgb(97, 243, 0);        
+        0 0 40px rgb(97, 243, 0);
+        margin: 20px 0;
     }
+    
     pA {
         color: #ffffff;
         font-family: 'Playwrite NZ  Guides', cursive;
-        font-size: 20px;
-        position:relative; top: 150px;
-        float: left; height: 100px;
-        line-height: 1.5;
-          text-shadow:
-    0 0 5px rgb(255, 255, 255),
-    0 0 10px rgb(255, 255, 255),
-    0 0 20px rgb(255, 255, 255),
-    0 0 40px rgb(255, 255, 255);
-
+        font-size: clamp(1rem, 3vw, 1.25rem);
+        line-height: 1.6;
+        margin: 20px 0;
+        text-align: justify;
+        max-width: 90%;
+        text-shadow:
+        0 0 5px rgb(255, 255, 255),
+        0 0 10px rgb(255, 255, 255),
+        0 0 20px rgb(255, 255, 255),
+        0 0 40px rgb(255, 255, 255);
     }
 
 
     a {
         font-family: 'Press Start 2P', cursive;
-        font-size: 20px;
+        font-size: clamp(0.75rem, 2.5vw, 1.25rem);
+        text-decoration: none;
+        padding: 10px 15px;
+        display: inline-block;
     }
     .Characters {
         color: rgb(255, 255, 255);
@@ -111,13 +139,26 @@
         background-size: cover;
         font-family: 'press start 2p', cursive;
         width: 100%;
-        overflow-x: hidden;
-        overflow-y: hidden;
+        min-height: 100vh;
+        padding: 20px;
+        position: relative;
+        overflow-x: auto;
+        overflow-y: auto;
     }
-    li {
+    
+    .Chartss ul {
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        gap: 15px;
+        margin-bottom: 30px;
+        list-style: none;
+    }
+    
+    .Chartss li {
         display: inline-block;
         font-style: italic;
-        position: relative; top: 0px; left: 1400px;
+        padding: 10px 15px;
     }
     a {
         text-decoration: none;
@@ -173,14 +214,14 @@
         0 0 40px rgb(255, 255, 255);
     }
     h1B {
-        position:relative; top:50px; left: 20px;
-        font-size: 20px;
+        font-size: clamp(1rem, 4vw, 1.5rem);
         color: #000000;
         text-shadow: 
         0 0 5px rgb(255, 255, 255),
         0 0 10px rgb(255, 255, 255),
         0 0 20px rgb(255, 255, 255),
         0 0 40px rgb(255, 255, 255);
+        margin: 20px 0;
     }
     h3B{ 
         color: #ffffff;
@@ -189,9 +230,9 @@
         0 0 10px rgb(0, 119, 255),
         0 0 20px rgb(0, 119, 255),
         0 0 40px rgb(0, 119, 255);
-        font-size:25px;
+        font-size: clamp(1.25rem, 4vw, 1.75rem);
         font-family:'Press Start 2P', cursive;
-        position: relative; top:20px;
+        margin: 15px 0;
     }
      h2B {
          color: #ffffff;
@@ -200,8 +241,8 @@
         0 0 10px rgb(30, 255, 0),
         0 0 20px rgb(30, 255, 0),
         0 0 40px rgb(30, 255, 0);
-        font-size: 25px;
-        position: relative; top: 20px;
+        font-size: clamp(1.25rem, 4vw, 1.75rem);
+        margin: 15px 0;
     }
 
     h4B {
@@ -211,10 +252,9 @@
         0 0 10px rgb(255, 0, 0),
         0 0 20px rgb(255, 0, 0),
         0 0 40px rgb(255, 0, 0);
-        font-size: 25px;
-        position: relative; top: 20px; 
+        font-size: clamp(1.25rem, 4vw, 1.75rem);
+        margin: 15px 0;
     }
-
 
     p2B {
         color: #ffffff;
@@ -223,8 +263,8 @@
         0 0 10px rgb(30, 255, 0),
         0 0 20px rgb(30, 255, 0),
         0 0 40px rgb(30, 255, 0);
-        font-size: 12px;
-        position: relative; top: 30px;
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+        margin: 10px 0;
     }
     p3B {
         color: #ffffff;
@@ -233,8 +273,8 @@
         0 0 10px rgb(0, 119, 255),
         0 0 20px rgb(0, 119, 255),
         0 0 40px rgb(0, 119, 255);
-        font-size: 12px;
-        position: relative; top: 30px;
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+        margin: 10px 0;
     }
     p4B {
         color: #ffffff;
@@ -243,23 +283,47 @@
         0 0 10px rgb(255, 0, 0),
         0 0 20px rgb(255, 0, 0),
         0 0 40px rgb(255, 0, 0);
-        font-size: 12px;
-        position: relative; top: 20px;
+        font-size: clamp(0.8rem, 2.5vw, 1rem);
+        margin: 10px 0;
     }
-     img.frank {
-         position: relative; top: 50px; right: 200px;
-     }
-     img.Mich {
-         position: relative; right: 100px;
+     
+    img.frank {
+        max-width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    img.Mich {
+        max-width: 90%;
+        height: auto;
+        margin: 20px auto;
+        display: block;
+    }
+    
+    .Chartss .columnn {
+        width: 100%;
+        padding: 20px;
+        overflow-x: auto;
+        overflow-y: auto;
+        margin: 20px 0;
+    }
+    
+    @media (min-width: 768px) {
+        .Chartss .columnn {
+            width: 48%;
+            display: inline-block;
+            vertical-align: top;
         }
-     .Chartss .columnn {
-         float: left;
-         width: 33.33%;
-         padding: 20px;
-         position: relative; top: 500px;
-         overflow: visible;
-         
-     }
+    }
+    
+    @media (min-width: 1024px) {
+        .Chartss .columnn {
+            width: 31%;
+            display: inline-block;
+            vertical-align: top;
+        }
+    }
      /*End of Catagory B*/
 
      /*Start of Catagory C*/
@@ -268,9 +332,11 @@
          background-size: cover;
          font-family: 'press start 2p', cursive;
          margin: auto;
-         overflow: hidden;
          position: relative;
          min-height: 100vh;
+         padding: 20px;
+         overflow-x: auto;
+         overflow-y: auto;
      }
      
      .Heistt::before {
@@ -297,16 +363,25 @@
          0 0 10px rgb(255, 255, 255),
          0 0 20px rgb(255, 255, 255),
          0 0 40px rgb(255, 255, 255);
-         font-size: larger;
-         position: relative; top:50px; left:100px;
+         font-size: clamp(1.25rem, 4vw, 2rem);
+         margin: 20px 0;
+     }
+     
+     .Heistt ul {
+         display: flex;
+         flex-wrap: wrap;
+         justify-content: center;
+         gap: 15px;
+         list-style: none;
+         margin: 20px 0;
+     }
+     
+     .Heistt li {
+         padding: 10px 15px;
      }
      
      .Cayo, .Diamond, .Dooms {
-         position: relative; right: 280px; 
-     }
-     ul, li {
-         position: relative; right: 100px;
-         padding: 20px;
+         display: inline-block;
      }
          a {
              text-decoration: none;
@@ -355,11 +430,12 @@
          }
           
          h2C, h1C {
-             position: relative; top: 600px; right: 1000px;
-             font-size:larger;
+             font-size: clamp(1.25rem, 4vw, 2rem);
+             margin: 20px 0;
          }
          h3C {
-             position: relative;top: 600px; right: 900px;
+             font-size: clamp(1rem, 3vw, 1.5rem);
+             margin: 15px 0;
          }
          .Dooms {
              color: #ffffff;
@@ -411,6 +487,18 @@
              
 
          /*Start of Catagory D*/
+         .SStory {
+             background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
+             background-size: cover;
+             font-family: 'press start 2p', cursive;
+             width: 100%;
+             min-height: 100vh;
+             padding: 20px;
+             position: relative;
+             overflow-x: auto;
+             overflow-y: auto;
+         }
+         
          .SStory::before {   
              content: "";
              position: absolute;
@@ -422,9 +510,23 @@
              transform: scale(1.05);
              z-index: -1;
          }
+         
+         .SStory > * {
+             position: relative;
+             z-index: 1;
+         }
+
+         .SStory ul {
+             display: flex;
+             flex-wrap: wrap;
+             justify-content: center;
+             gap: 15px;
+             list-style: none;
+             margin: 20px 0;
+         }
 
          .SStory li {
-             padding: 20px;
+             padding: 10px 15px;
              display: inline-block;
          }
 
@@ -478,7 +580,67 @@
              0 0 20px rgb(255, 255, 255),
              0 0 40px rgb(255, 255, 255);
          }
+         
+         hD1 {
+             color: #ffffff;
+             font-size: clamp(1.5rem, 5vw, 3rem);
+             text-align: center;
+             margin: 30px 0;
+             text-shadow: 
+             0 0 5px rgb(255, 215, 0),
+             0 0 10px rgb(255, 215, 0),
+             0 0 20px rgb(255, 215, 0),
+             0 0 40px rgb(255, 215, 0);
+         }
+         
          .columnn {
-             position:relative; bottom:100px;
+             margin: 20px 0;
          }
          /* end of catagory D*/
+
+/* Responsive Media Queries */
+@media (max-width: 768px) {
+    .MainPage ul,
+    .Chartss ul,
+    .Heistt ul {
+        flex-direction: column;
+        align-items: center;
+        gap: 10px;
+    }
+    
+    pA {
+        max-width: 95%;
+    }
+    
+    .Chartss .columnn {
+        width: 100% !important;
+        margin: 15px 0;
+    }
+}
+
+@media (max-width: 480px) {
+    .MainPage,
+    .Chartss,
+    .Heistt {
+        padding: 10px;
+    }
+    
+    h1A {
+        font-size: clamp(1.5rem, 6vw, 2.5rem);
+    }
+    
+    a {
+        font-size: clamp(0.6rem, 2vw, 1rem);
+        padding: 8px 12px;
+    }
+    
+    h1B, h2B, h3B, h4B,
+    h1C, h2C, h3C,
+    hC1 {
+        font-size: clamp(1rem, 3vw, 1.5rem);
+    }
+    
+    pA, p2B, p3B, p4B {
+        font-size: clamp(0.75rem, 2vw, 1rem);
+    }
+}

@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
   <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
 <link rel="stylesheet" href="layout.css">
 <style>
@@ -15,10 +16,8 @@ body {
 
 body.Chartss {
   position: relative;
-  overflow-x: hidden;
+  overflow-x: auto;
   overflow-y: auto;
-  --columns-offset-x: 0px;
-  --columns-offset-y: 100px;
 }
 
 body.Chartss::before {
@@ -39,23 +38,47 @@ body.Chartss > * {
 }
 
 .column {
-  float: left;
-  position: relative;
-  width: 33.33%;
-  padding: 10px;
-  height: 450px;
-  overflow-y: scroll;
+  width: 100%;
+  padding: 20px;
+  overflow-y: auto;
   overflow-x: hidden;
-  scrollbar-color: rgba(0, 0, 0, 0) transparent; /* Firefox */
-  -ms-overflow-style: none; /* IE/Edge */
+  margin: 20px 0;
+  scrollbar-color: rgba(0, 0, 0, 0) transparent;
+  -ms-overflow-style: none;
 }
+
+.column::-webkit-scrollbar {
+  display: none;
+}
+
 .row {
-  margin-top: 320px;
+  margin-top: 20px;
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: 20px;
 }
+
 .row:after {
   content: "";
   display: table;
   clear: both;
+}
+
+@media (min-width: 768px) {
+  .column {
+    width: 48%;
+    display: inline-block;
+    vertical-align: top;
+  }
+}
+
+@media (min-width: 1024px) {
+  .column {
+    width: 31%;
+    display: inline-block;
+    vertical-align: top;
+  }
 }
 </style>
 </head>
