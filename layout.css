@@ -15,7 +15,7 @@ html, body {
 
 /*Start of Catagory A*/
 .MainPage {   
-    background-color: rgba(0, 0, 0, 0.535);
+    background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
     background-size: cover;
     font-family:'Anton';
     width: 100%;
@@ -25,7 +25,6 @@ html, body {
     flex-direction: column;
     align-items: center;
 }
-
 .MainPage ul {
     display: flex;
     flex-wrap: wrap;
@@ -51,8 +50,8 @@ html, body {
         text-align: center;
         text-shadow:
         0 0 5px rgb(97, 243, 0),
-        0 0 10px rgb(97, 243, 0),
-        0 0 20px rgb(97, 243, 0),
+        0 0 10px rgb(0, 0, 0),
+        0 0 20px rgb(0, 0, 0),
         0 0 40px rgb(97, 243, 0);
         margin: 20px 0;
     }
@@ -65,11 +64,12 @@ html, body {
         margin: 20px 0;
         text-align: justify;
         max-width: 90%;
+        font-weight: 800;
         text-shadow:
-        0 0 5px rgb(255, 255, 255),
-        0 0 10px rgb(255, 255, 255),
-        0 0 20px rgb(255, 255, 255),
-        0 0 40px rgb(255, 255, 255);
+        0 0 5px rgb(0, 0, 0),
+        0 0 10px rgb(0, 0, 0),
+        0 0 20px rgb(0, 0, 0),
+        0 0 40px rgb(0, 0, 0);
     }
 
 
