@@ -281,9 +281,9 @@ html, body {
     }
     h1B {
         font-size: clamp(1rem, 4vw, 1.5rem);
-        color: #ff0000;
+        color: #ffffff;
         text-shadow: 
-        0 0 5px rgb(255, 0, 0),
+        0 0 5px rgb(0, 0, 0),
         0 0 10px rgb(0, 0, 0),
         0 0 20px rgb(255, 255, 255),
         0 0 40px rgb(0, 0, 0);
@@ -293,9 +293,9 @@ html, body {
         color: #ffffff;
        text-shadow: 
        0 0 5px rgb(30, 255, 0),
-       0 0 10px rgb(30, 255, 0),
+       0 0 10px rgb(0, 0, 0),
        0 0 20px rgb(30, 255, 0),
-       0 0 40px rgb(30, 255, 0);
+       0 0 40px rgb(0, 0, 0);
        font-size: clamp(1.25rem, 4vw, 1.75rem);
        margin: 15px 0;
    }
@@ -303,50 +303,50 @@ html, body {
        color: #ffffff;
        text-shadow: 
        0 0 5px rgb(30, 255, 0),
-       0 0 10px rgb(30, 255, 0),
+       0 0 10px rgb(0, 0, 0),
        0 0 20px rgb(30, 255, 0),
-       0 0 40px rgb(30, 255, 0);
+       0 0 40px rgb(0, 0, 0);
        font-size: clamp(0.8rem, 2.5vw, 1rem);
        margin: 10px 0;
    }
     h3B{ 
-        color: #ffffff;
+        color: rgb(255, 255, 255);
         text-shadow: 
         0 0 5px rgb(0, 119, 255),
-        0 0 10px rgb(0, 119, 255),
+        0 0 10px rgb(0, 0, 0),
         0 0 20px rgb(0, 119, 255),
-        0 0 40px rgb(0, 119, 255);
+        0 0 40px rgb(0, 0, 0);
         font-size: clamp(1.25rem, 4vw, 1.75rem);
         font-family:'Press Start 2P', cursive;
         margin: 15px 0;
     }
     p3B {
-        color: #ffffff;
+        color: rgb(255, 255, 255);
         text-shadow: 
         0 0 5px rgb(0, 119, 255),
-        0 0 10px rgb(0, 119, 255),
+        0 0 10px rgb(0, 0, 0),
         0 0 20px rgb(0, 119, 255),
-        0 0 40px rgb(0, 119, 255);
+        0 0 40px rgb(0, 0, 0);
         font-size: clamp(0.8rem, 2.5vw, 1rem);
         margin: 10px 0;
     }
     h4B {
-        color: #ffffff;
+        color: #ff0000;
         text-shadow: 
         0 0 5px rgb(255, 0, 0),
-        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(0, 0, 0),
         0 0 20px rgb(255, 0, 0),
-        0 0 40px rgb(255, 0, 0);
+        0 0 40px rgb(0, 0, 0);
         font-size: clamp(1.25rem, 4vw, 1.75rem);
         margin: 15px 0;
     }
     p4B {
-        color: #ffffff;
+        color: #ff0000;
         text-shadow: 
         0 0 5px rgb(255, 0, 0),
-        0 0 10px rgb(255, 0, 0),
+        0 0 10px rgb(0, 0, 0),
         0 0 20px rgb(255, 0, 0),
-        0 0 40px rgb(255, 0, 0);
+        0 0 40px rgb(0, 0, 0);
         font-size: clamp(0.8rem, 2.5vw, 1rem);
         margin: 10px 0;
     }
@@ -354,9 +354,9 @@ html, body {
         color: rgb(255, 255, 255);
         text-shadow:
         0 0 5px gold,
-        0 0 10px gold,
+        0 0 10px rgb(0, 0, 0),
         0 0 20px gold,
-        0 0 40px gold;
+        0 0 40px rgb(0, 0, 0);
         font-size: clamp(1.25rem, 4vw, 1.75rem);
         font-family: 'Press Start 2P', cursive;
         margin: 15px 0;
@@ -365,9 +365,9 @@ html, body {
         color: rgb(255, 255, 255);
         text-shadow:
         0 0 5px gold,
-        0 0 10px gold,
+        0 0 10px rgb(0, 0, 0),
         0 0 20px gold,
-        0 0 40px gold;
+        0 0 40px rgb(0, 0, 0);
         font-size: clamp(0.8rem, 2.5vw, 1rem);
         margin: 10px 0;
     }
