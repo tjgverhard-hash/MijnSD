@@ -25,7 +25,7 @@ html, body {
     flex-direction: column;
     align-items: center;
 }
-.MainPage ul {
+.MainPage > ul {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
@@ -35,10 +35,48 @@ html, body {
     list-style: none;
 }
 
-.MainPage li {
+.MainPage > ul > li {
     display: inline-block;
     font-style: italic;
     padding: 15px;
+}
+
+.MainPage .dropdown {
+    position: relative;
+}
+
+.MainPage .dropdown-menu {
+    display: none;
+    position: absolute;
+    top: calc(100% + 8px);
+    left: 50%;
+    transform: translateX(-50%);
+    min-width: 240px;
+    padding: 8px 0;
+    list-style: none;
+    border: 1px solid rgba(255, 255, 255, 0.35);
+    border-radius: 8px;
+    background: rgba(0, 0, 0, 0.88);
+    box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+    z-index: 50;
+}
+
+.MainPage .dropdown-menu li {
+    display: block;
+    padding: 0;
+}
+
+.MainPage .dropdown-menu a {
+    display: block;
+    width: 100%;
+    text-align: center;
+    white-space: nowrap;
+    padding: 10px 14px;
+}
+
+.MainPage .dropdown:hover .dropdown-menu,
+.MainPage .dropdown:focus-within .dropdown-menu {
+    display: block;
 }
 
 
@@ -148,7 +186,7 @@ html, body {
         flex-direction: column;
     }
     
-    .Chartss ul {
+    .Chartss > ul {
         display: flex;
         flex-wrap: wrap;
         justify-content: center;
@@ -157,10 +195,48 @@ html, body {
         list-style: none;
     }
     
-    .Chartss li {
+    .Chartss > ul > li {
         display: inline-block;
         font-style: italic;
         padding: 10px 15px;
+    }
+
+    .Chartss .dropdown {
+        position: relative;
+    }
+
+    .Chartss .dropdown-menu {
+        display: none;
+        position: absolute;
+        top: calc(100% + 8px);
+        left: 50%;
+        transform: translateX(-50%);
+        min-width: 230px;
+        padding: 8px 0;
+        list-style: none;
+        border: 1px solid rgba(255, 255, 255, 0.35);
+        border-radius: 8px;
+        background: rgba(0, 0, 0, 0.88);
+        box-shadow: 0 10px 24px rgba(0, 0, 0, 0.45);
+        z-index: 50;
+    }
+
+    .Chartss .dropdown-menu li {
+        display: block;
+        padding: 0;
+    }
+
+    .Chartss .dropdown-menu a {
+        display: block;
+        width: 100%;
+        text-align: center;
+        white-space: nowrap;
+        padding: 10px 14px;
+    }
+
+    .Chartss .dropdown:hover .dropdown-menu,
+    .Chartss .dropdown:focus-within .dropdown-menu {
+        display: block;
     }
     
     .Chartss .column {
@@ -465,7 +541,7 @@ html, body {
          margin: 20px 0;
      }
      
-     .Heistt ul {
+     .Heistt .nav {
          display: flex;
          flex-wrap: wrap;
          justify-content: center;
@@ -474,10 +550,11 @@ html, body {
          margin: 20px 0;
      }
      
-     .Heistt li {
+     .Heistt .nav > li {
          padding: 10px 15px;
          display: inline-block;
      }
+
      
      .Heistt .column {
          float: left;
@@ -792,12 +869,26 @@ html, body {
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {
-    .MainPage ul,
-    .Chartss ul,
-    .Heistt ul {
+    .MainPage > ul,
+    .Chartss > ul,
+    .Heistt .nav {
         flex-direction: column;
         align-items: center;
         gap: 10px;
+    }
+
+    .MainPage .dropdown-menu {
+        position: static;
+        transform: none;
+        min-width: 100%;
+        margin-top: 8px;
+    }
+
+    .Chartss .dropdown-menu {
+        position: static;
+        transform: none;
+        min-width: 100%;
+        margin-top: 8px;
     }
     
     pA {
