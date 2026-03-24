@@ -5,25 +5,30 @@
         * {
             box-sizing: border-box;
         }
-
         .column {
             width: 33.33%;
             height: 600px;
             float: left;
-            position:relative; top: 150px;
+            position:relative; top: 100px;
+        }
+        html body {
+            animation: backgroundcolorchange 10s infinite;
+        }
+        @keyframes backgroundcolorchange {
+            100% {background-color: red;}
+            50% {background-color: blue;}
+            0% {background-color: gold;}
         }
     </style>
     <head>
+        <title>Development</title>
         <link rel="stylesheet" href="layout.css">
-        <title>Cayo Perico</title>
     </head>
-    <body>
-        <div class="Row">
-            <div class="column" style="background-color:rgb(240, 240, 240)">
-                <h1E>Cay</h1E>
-            </div>
-            <div class="column" style="background-color:rgb(230, 230, 230)"></div>
-            <div class="column" style="background-color:rgb(220, 220, 220)"></div>
+    <body class="Dev">
+        <div class="row">
+            <div class="column" style="background-color: rgb(240, 240, 240);"></div>
+            <div class="column" style="background-color: rgb(230, 230, 230);"></div>
+            <div class="column" style="background-color: rgb(200, 200, 200);"></div>
         </div>
     </body>
 </html>
