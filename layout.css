@@ -355,6 +355,7 @@ a.Nav{
           flex-wrap: nowrap;
           justify-content: center;
           align-items: flex-start;
+          gap: 10px;
           
       }
 
@@ -373,7 +374,7 @@ a.Nav{
           margin: 0;
       }
      .Heistrow > .column1   {
-        transform: translateX(100px) rotate(2turn);
+        transform: translateX(1000px) rotate(2turn);
         transition: transform 1s ease-in-out, opacity .5s ease-in-out;
         opacity: 0;
      }
