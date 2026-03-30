@@ -31,7 +31,7 @@ ul {
 }
 
 .Navigation1 {
-    border: solid white 1px;
+    border: solid rgba(255, 255, 255, 0.080);
     overflow: hidden;
     border-radius: 20px;
     width: fit-content;
@@ -317,18 +317,21 @@ a.Nav{
      /*End of Catagory B*/
      /*Start of Catagory C*/
 
-     .Heistt {   
-         background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
-         background-size: cover;
-         font-family: 'press start 2p', cursive;
-         margin: auto;
-         position: relative;
-         min-height: 100vh;
-         padding: 20px;
-         overflow-x: hidden;
-         overflow-y: hidden;
-     }
-     
+    .Heistt {
+        background-image: url(Image/1920x1080-grand-theft-auto-v-background-k4z5k381bcr0z7n9.png);
+        overflow: hidden;
+
+    }  
+   
+     .Navigation1 {
+    border: solid rgba(255, 255, 255, 0.080);
+    overflow: hidden;
+    border-radius: 20px;
+    width: fit-content;
+    height: fit-content;
+    opacity: 1;
+    transform: translateX(0px);
+}
      .Heistt::before {
          content: "";
          position: absolute;
@@ -340,176 +343,56 @@ a.Nav{
          transform: scale(1.05);
          z-index: 0;
      }
-     
-     .Heistt > * {
-         position: relative;
-         z-index: 1;
-     }
-     
-     .Heistt hC1 {
-         color:rgb(255, 255, 255);
-         text-shadow:
-         0 0 5px rgb(0, 130, 255),
-         0 0 10px rgb(0, 0, 0),
-         0 0 20px rgb(0, 130, 255),
-         0 0 40px rgb(0, 0, 0);
-         font-size: clamp(1.25rem, 4vw, 2rem);
-         margin: 20px 0;
-     }
-     
-     .Heistt .nav {
-         display: flex;
-         flex-wrap: wrap;
-         justify-content: center;
-         gap: 15px;
-         list-style: none;
-         margin: 20px 0;
-     }
-     
-     .Heistt .nav > li {
-         padding: 10px 15px;
-         display: inline-block;
-     }
 
-     
-     .Heistt .column {
-         float: left;
-         width: 30%;
-         padding: 10px;
-         margin: 10px;
-         display: flex;
-         flex-direction: column;
-         align-items: center;
-         justify-content: flex-start;
+     img {
+        height: 100%;
+        width: fit-content;
+        margin: 20px;
      }
-
-     .Heistt .heist-image {
-         width: 100%;
-         height: auto;
-         max-height: 55vh;
-         object-fit: contain;
-         display: block;
-     }
-     
-     .Heistt .row {
-         overflow: auto;
-     }
-     
-     @media (max-width: 1024px) {
-         .Heistt .column {
-             width: 48%;
-         }
-     }
-     
-     @media (max-width: 768px) {
-         .Heistt .column {
-             width: 100%;
-             margin: 10px 0;
-         }
-     }
-         a {
-             text-decoration: none;
-         }
-         .home {
-             color: rgb(255, 255, 255);
-             text-shadow:
-                0 0 5px rgb(0, 255, 0),
-                0 0 10px rgb(0, 255, 0),
-                0 0 20px rgb(0, 255, 0),
-                0 0 40px rgb(0, 255, 0);
-         }
-         .home:hover {
-             color: rgb(0, 255, 0);
-             text-shadow: rgb(255, 255, 255) 2px 2px 0px;
-         }
-     
-         .story {
-             color:rgb(255, 255, 255);
-             text-shadow: 
-                0 0 5px gold,
-                0 0 10px gold,
-                0 0 20px gold,
-                0 0 40px gold;
-         }
-     
-         .story:hover {
-             color:rgb(255, 247, 0);
-             text-shadow: rgb(255, 255, 255) 2px 2px 0px;
-         }
-         .Charachters {
-             color: #ffffff;
-             text-shadow:
-             0 0 5px rgb(170, 0, 131),
-             0 0 10px rgb(170, 0, 131),
-             0 0 20px rgb(170, 0, 131),
-             0 0 40px rgb(170, 0, 131);
-         }
-         .Charachters:hover {
-             color: #6a326f;
-             text-shadow: 
-             0 0 5px rgb(255, 255, 255),
-             0 0 10px rgb(255, 255, 255),
-             0 0 20px rgb(255, 255, 255),
-             0 0 40px rgb(255, 255, 255);
-         }
+    
+      .Heistrow {
+          display: flex;
+          flex-wrap: nowrap;
+          justify-content: center;
+          align-items: flex-start;
           
-         h2C, h1C {
-             font-size: clamp(1.25rem, 4vw, 2rem);
-             margin: 12px 0 0;
-             text-align: center;
-         }
-         h3C {
-             font-size: clamp(1rem, 3vw, 1.5rem);
-             margin: 12px 0 0;
-             text-align: center;
-         }
-         .Dooms {
-             color: #ffffff;
-             text-shadow:
-             0 0 5px rgb(255, 0, 0),
-             0 0 10px rgb(255, 0, 0),
-             0 0 20px rgb(255, 0, 0),
-             0 0 40px rgb(255, 0, 0);
-     
-         }
-         .Dooms:hover {
-             color: #bf0000;
-             text-shadow: rgb(255, 255, 255) 2px 2px 0px;
-         }
-         .Cayo {
-             color: #ffffff;
-             text-shadow:
-             0 0 5px rgb(255, 215, 0),
-             0 0 10px rgb(255, 215, 0),
-             0 0 20px rgb(255, 215, 0),
-             0 0 40px rgb(255, 215, 0);
-         }
-         .Cayo:hover {
-             color: #ffffff;
-             text-shadow: 
-             0 0 5px  rgb(254, 241, 0),
-             0 0 10px rgb(254, 241, 0),
-             0 0 20px rgb(254, 241, 255),
-             0 0 40px rgb(254, 241, 255);
-         }
-         .Diamond {
-             color: #ffffff;
-             text-shadow: 
-             0 0 5px rgb(0, 119, 255),
-             0 0 10px rgb(0, 119, 255),
-             0 0 20px rgb(0, 119, 255),
-             0 0 40px rgb(0, 119, 255);
-         } 
-         .Diamond:hover {
-             color: #ffffff;
-             text-shadow:
-             0 0 5px rgb(0, 98, 255),
-             0 0 10px rgb(0, 98, 255),
-             0 0 20px rgb(0, 98, 255),
-             0 0 40px rgb(0, 98, 255);
-         }
-        
-             /*End of Catagory C*/   
+      }
+
+      .Heistrow > .column1{
+          object-fit: contain;
+          flex: 0 1 32%;
+          max-width: 32%;
+          padding: 0;
+          margin: 0;
+      }
+
+      .Heistrow .heist-image {
+          display: block;
+          width: 100%;
+          height: auto;
+          margin: 0;
+      }
+     .Heistrow > .column1   {
+        transform: translateX(100px) rotate(2turn);
+        transition: transform 1s ease-in-out, opacity .5s ease-in-out;
+        opacity: 0;
+     }
+
+     .Heistrow:hover > .column1 {
+        transform: translateX(0px);
+        opacity: 1;
+     }
+
+     .heist-image:hover {
+        border: solid red 5px;
+        @keyframes  {
+            
+        }
+     }
+
+    
+
+         /*End of Catagory C*/   
              
 
          /*Start of Catagory D*/
@@ -622,66 +505,7 @@ a.Nav{
          .columnn {
              margin: 20px 0;
          }
-         /* end of catagory D*/
-
-         
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
+         /* end of catagory D*/ 
 
 /* Responsive Media Queries */
 @media (max-width: 768px) {
@@ -743,3 +567,4 @@ a.Nav{
         font-size: clamp(0.75rem, 2vw, 1rem);
     }
 }
+

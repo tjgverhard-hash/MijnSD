@@ -1,17 +1,39 @@
-body {
-    background-color: rgb(255, 255, 255);
+.test {
+    background-color: red;
+    overflow: hidden;
 }
 
-table {
-    background-color: rgb(0, 0, 0);
-    margin-left: auto;
-    margin-right: auto;
-    position:relative; top: 300px;
-    height: 100%;
-    width: 600px;
+.row > .column1 {
+    @keyframes {
+        
+    }
 }
 
-tr{
-    background-color: rgb(255, 255, 255);
-    color: red;
+
+.row > .column > img {
+    transform: translateX(00px);
+    transition: transform 1s ease, opacity 1s ease-in-out;
+    opacity: 1;
+}
+
+.row:hover > .column > img {
+    opacity: 1;
+    transform: translateX(0px);
+}
+
+img {
+    width: 100%;
+    height: fit-content;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    object-fit: cover;
+
+}
+
+.row > .column > .no:hover > img {
+    border: solid rgb(0, 0, 0) 1px;
+
 }

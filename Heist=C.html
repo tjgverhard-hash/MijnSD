@@ -1,5 +1,25 @@
 <!DOCTYPE html>
 <html>
+  <style>
+    * { box-sizing: border-box;
+    }
+
+    .heist-image {
+      animation: move 1s infinite;
+    }
+    @keyframes move {
+      100% {transform: translateY(20px);}
+      50% {transform: translateY(0px);}
+      0% {transform: translateY(20px);}
+    }
+
+    .column1 {
+      width: 33.33%;
+      height: 600px;
+      float: left;
+      padding: 0px;
+    }
+  </style>
 <head>
 <link rel="stylesheet" href="layout.css">
 <meta name="viewport" content="width=device-width, initial-scale=1">
@@ -14,21 +34,19 @@
   <li><a href="Story=D.html" class="Nav">Story</a></li>
 </ul>
 </div>
-<div class="row">
-  <div class="column">
-    <img src="Image/Cayoperucio.png" alt="Cayo Perico" class="heist-image">
-    <a href="Cayo=E.html" class="Cayo"><h1C>Cayo perico</h1C></a>
+
+<div class="Heistrow">
+  
+  <div class="column1">
+  <a class="Yes" href="Cayo=E.html"><img src="Image/Cayoperucio.png" alt="Cayo Perico" class="heist-image"></a>
+  </div>
+<div class="column1">
+    <a href="Casino=F.html"><img src="Image/Casino.png" alt="Diamond Casino Heist" class="heist-image"></a>
   </div>
 
-<div class="column">
-    <img src="Image/Casino.png" alt="Diamond Casino Heist" class="heist-image">
-    <a href="Casino=F.html" class="Diamond"><h2C>Casino Heist</h2C></a>
+  <div class="column1">
+    <a href="#"><img src="Image/Doomsdayy.png" alt="Diamond Casino Heist" class="heist-image"></a>
   </div>
-
-  <div class="column">
-    <img src="Image/Doomsdayy.png" alt="Diamond Casino Heist" class="heist-image">
-    <a href="Diamond=G.html" class="Diamond"><h3C>Diamond Casino Heist</h3C></a>
   </div>
-</div>
 </body>
 </html>
