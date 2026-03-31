@@ -5,6 +5,14 @@
 <head>
 <link rel="stylesheet" href="layout.css">
 <style>
+
+  .row {
+    animation: move ease-in-out 3s;
+  }
+  @keyframes move {
+    100% {transform: translateX(0px);}
+    0% {transform: translateX(-3000px);}
+  }
 * {
   box-sizing:border-box;
 }

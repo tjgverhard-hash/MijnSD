@@ -24,6 +24,7 @@ html, body {
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 }
 
 ul {
@@ -50,6 +51,7 @@ a.Nav{
     opacity: 0;
     transform: translateX(-1400px);
     transition: transform 1s ease-in-out, opacity 1s ease-in-out;
+    text-decoration: none;
     text-shadow: 
     0 0 5px white,
     0 0 10px rgb(0, 0, 0),
@@ -103,8 +105,8 @@ a.Nav{
         height: 100%;
         padding: 20px;
         position: relative;
-        overflow-y: scroll;
-        overflow-x: scroll;
+        overflow-y: hidden;
+        overflow-x: hidden;
         display: flex;
         flex-direction: column;
     }
@@ -118,7 +120,8 @@ a.Nav{
         scrollbar-color: rgba(0, 0, 0, 0) transparent;
         scroll-behavior: smooth;
     }
-    
+
+
     .Chartss .column::-webkit-scrollbar {
         width: 8px;
     }
@@ -138,6 +141,8 @@ a.Nav{
     
     .Chartss .row {
         display: flex;
+        @keyframes  {
+        }
         flex-wrap: wrap;
         height: calc(100vh - 120px);
         overflow: visible;
@@ -259,9 +264,9 @@ a.Nav{
         0 0 5px gold,
         0 0 10px rgb(0, 0, 0),
         0 0 20px gold,
-        0 0 40px rgb(0, 0, 0);
+        0 0 40px rgba(0, 0, 0, 0);
         font-size: clamp(0.8rem, 2.5vw, 1rem);
-        margin: 10px 0;
+        margin: 10px
     }
     
     img.frank {
