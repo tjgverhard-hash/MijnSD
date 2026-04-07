@@ -383,21 +383,6 @@ a.Nav{
           height: auto;
           margin: 0;
       }
-<<<<<<< HEAD
-=======
-     .Heistrow > .column1   {
-        animation: rotate 1.5s ease-in-out;
-     }
-
-     .Heistrow:hover > .column1 {
-        transform: translateX(0px);
-        opacity: 1;
-     }
-     .Navigation1:hover {
-        border: solid black 2px;
-     }
-
->>>>>>> 16afbbb4f7c11786f0f7cb00662e9011797035a2
      .heist-image:hover {
         border: solid red 10px;
       }
@@ -605,10 +590,6 @@ a.Nav{
     }
 }
 
-<<<<<<< HEAD
 .Cayo {
     background-color: rebeccapurple;
 }
-=======
-/* Start of Catagory E*/
->>>>>>> 16afbbb4f7c11786f0f7cb00662e9011797035a2
