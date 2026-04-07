@@ -1,32 +1,62 @@
 <!DOCTYPE html>
-<html lang="en">
-    <style>
-        * { box-sizing: border-box;
-        }
-        .column {
-            width: 33.33%;
-            height: 600px;
-            float: left;
-        }
-    </style>
+<html lang="nl">
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="test.css">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</a></title>
+    <title>HTML CSS Challenge</title>
+    <link rel="stylesheet" href="test.css">
 </head>
-<body class="test">
-    <div class="row">
-        <a class="no1" href="index=A.html"></a>
-        <div style="background-color: rgba(220, 220, 220, 0);" class="column">
-            <img src="Image/Casino.png" alt="">
-        </div>
-        <a class="no" href="index=A.html">
-        <div style="background-color: rgba(190, 190, 190, 0);" class="column">
-    
-            <img src="Image/Cayoperucio.png"class="cayo" alt=""></a>
-            <div style="background-color: rgba(160, 160, 160, 0);" class="column">
-                </div>
-            </div>
+<body>
+    <div class="page">
+        <header class="top-bar">
+            <h1>HTML CSS Challenge</h1>
+            <nav class="menu">
+                <a href="#">Home</a>
+                <a href="#">Over</a>
+                <a href="#">Projecten</a>
+                <a href="#">Contact</a>
+            </nav>
+        </header>
+
+        <main class="main-layout">
+            <section class="card profile-card">
+                <img src="Image/Doomsdayy.png" alt="Profiel foto" class="avatar-image">
+                <h2>Frontend Student</h2>
+                <p>In deze oefening zitten fouten in de <strong>HTML</strong> en de <strong>CSS</strong>.</p>
+                <button class="main-button">Bekijk profiel</button>
+            </section>
+
+            <section class="content-panel">
+                <section class="cards-grid">
+                    <article class="info-card">
+                        <h3>12</h3>
+                        <p>Lessen klaar</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>5</h3>
+                        <p>Oefeningen open</p>
+                    </article>
+                    <article class="info-card">
+                        <h3>87%</h3>
+                        <p>Gemiddelde score</p>
+                    </article>
+                </section>
+
+                <section class="task-panel">
+                    <h2>Wat moet je fixen?</h2>
+                    <ul>
+                        <li>fouten in de HTML-structuur</li>
+                        <li>class-namen die niet goed matchen</li>
+                        <li>layout en spacing</li>
+                        <li>kleuren en hover-effecten</li>
+                    </ul>
+                </section>
+            </section>
+        </main>
+
+        <footer class="footer">
+            <p>Zoek fouten in `Test=Dummy.html` en `test.css`.</p>
+        </footer>
+    </div>
 </body>
 </html>

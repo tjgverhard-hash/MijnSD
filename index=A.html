@@ -4,14 +4,31 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <head>
     <style>
-        html h1A {
-            animation: textcolorchange 1s infinite;
-        }
-        @keyframes textcolorchange {
-            100% {color: lime;}
-            50% {color: black;}
-            0% {color: lime;}
-        }
+       h1A {
+    animation: 
+        textcolorchange 1s infinite ease-in-out,
+        Move 1s ease-in-out;
+}
+pA {
+    animation: Move 1.5s ease-in-out;
+}
+
+@keyframes textcolorchange {
+    0% { color: lime; }
+    50% { color: black; }
+    100% { color: lime; }
+}
+
+@keyframes Move {
+    0% {
+        opacity: 0;
+        transform: translateX(-3000px);
+    }
+    100% {
+        opacity: 1;
+        transform: translateX(0px);
+    }
+}
         * {
             box-sizing: border-box;
         }

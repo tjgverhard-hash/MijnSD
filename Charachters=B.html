@@ -6,20 +6,46 @@
 <link rel="stylesheet" href="layout.css">
 <style>
 
-  .row {
-    animation: move ease-in-out 3s;
+  div .Franklin {
+    animation: move1 ease-in-out 1.6s, opacity 4s ease-in-out;
   }
-  @keyframes move {
-    100% {transform: translateX(0px);}
-    0% {transform: translateX(-3000px);}
+  @keyframes move1 {
+    100% {opacity: 0; transform: translateX(0px);}
+    0% {opacity: 1 ;transform: translateX(-3000px);}
   }
+    div .Michael {
+    animation: move1 ease-in-out 1.4s, opacity 3s ease-in-out;
+  }
+  @keyframes move1 {
+    100% {opacity: 0;transform: translateX(0px);}
+    0% {opacity: 1;transform: translateX(-3000px);}
+  }
+    div .Trevor {
+    animation: move1 ease-in-out 1.2s, opacity 2s ease-in-out;
+  }
+  @keyframes move1 {
+    100% {opacity: 1;transform: translateX(0px);}
+    0% {opacity: 0;transform: translateX(-3000px);}
+  }
+      div .Lester {
+    animation: move1 ease-in-out 1s, opacity 1s ease-in-out;
+  }
+  @keyframes move1 {
+    100% {opacity: 1; transform: translateX(0px);}
+    0% {opacity: 0; transform: translateX(-3000px);}
+  }
+
+  
 * {
   box-sizing:border-box;
 }
-html h1B {
-  animation: textcolorchange 1s infinite;
+ h1B {
+  animation: move1 ease-in-out 1s, opacity 1s ease-in-out;
 }
-
+  @keyframes move1 {
+    100% {opacity: 1; transform: translateX(0px);}
+    0% {opacity: 0; transform: translateX(-3000px);}
+  }
 
 
 body {
@@ -30,7 +56,7 @@ body {
 body.Chartss {
   position: relative;
   overflow-x: hidden;
-  overflow-y: auto;
+  overflow-y: hidden;
   --columns-offset-x: 0px;
   --columns-offset-y: 100px;
 }
@@ -97,7 +123,6 @@ body.Chartss > * {
 </style>
 </head>
 <body class = "Chartss">
-
 <h1B>Main Characters of GTA 5</h1B>
 <div class = "Navigation1">
 <ul>
