@@ -339,7 +339,7 @@ a.Nav{
     height: fit-content;
     opacity: 1;
     transform: translateX(0px);
-    transition: 1s ease-in-out;
+    transition: 1s ease;
 }
      .Heistt::before {
          content: "";
@@ -383,9 +383,7 @@ a.Nav{
           margin: 0;
       }
      .Heistrow > .column1   {
-        transform: translateX(1000px) rotate(2turn);
-        transition: transform 1s ease-in-out, opacity .5s ease-in-out;
-        opacity: 0;
+        animation: rotate 1.5s ease-in-out;
      }
 
      .Heistrow:hover > .column1 {
