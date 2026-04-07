@@ -6,6 +6,11 @@
 <link rel="stylesheet" href="layout.css">
 <style>
 
+   @keyframes move1 {
+    100% {transform: translateX(0px);}
+    0% {transform: translateX(-3000px);}
+  }
+
   .Franklin {
     animation: move ease-in-out 1s;
   }
@@ -40,7 +45,7 @@
   box-sizing:border-box;
 }
  h1B {
-  animation: textcolorchange 1s infinite;
+  animation: textcolorchange 1s infinite, move1 1s ease-in-out ;
 }
 
 @keyframes textcolorchange {
