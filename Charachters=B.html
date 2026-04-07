@@ -6,8 +6,31 @@
 <link rel="stylesheet" href="layout.css">
 <style>
 
-  .row {
-    animation: move ease-in-out 3s;
+  .Franklin {
+    animation: move ease-in-out 1s;
+  }
+  @keyframes move {
+    100% {transform: translateX(0px);}
+    0% {transform: translateX(-3000px);}
+  }
+.Michael {
+    animation: move ease-in-out 1.2s;
+  }
+  @keyframes move {
+    100% {transform: translateX(0px);}
+    0% {transform: translateX(-3000px);}
+  }
+
+  .Trevor {
+    animation: move ease-in-out 1.4s;
+  }
+  @keyframes move {
+    100% {transform: translateX(0px);}
+    0% {transform: translateX(-3000px);}
+  }
+
+  .Lester {
+    animation: move ease-in-out 1.6s;
   }
   @keyframes move {
     100% {transform: translateX(0px);}
@@ -16,8 +39,15 @@
 * {
   box-sizing:border-box;
 }
-html h1B {
+ h1B {
   animation: textcolorchange 1s infinite;
+}
+
+@keyframes textcolorchange {
+  100% {color: rgb(255, 255, 255);}
+  50% {color: black;}
+  0% {color: rgb(255, 255, 255);}
+  
 }
 
 
