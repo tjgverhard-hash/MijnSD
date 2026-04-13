@@ -949,16 +949,34 @@ h2C {
 
 /* Start of Catagory G (Diamond=G.html) */
 .diamond-page {
-    overflow-x: scroll;
     --diamond-gold: #ffd76a;
     --diamond-ice: #9dd9ff;
     min-height: 100vh;
     padding: 24px;
+    background-attachment: scroll;
+    overflow: hidden;
+}
+
+.diamond-page.Heistt::before {
+    position: absolute;
 }
 
 .diamond-wrap {
     max-width: 1200px;
     margin: 0 auto;
+    height: calc(100vh - 48px);
+    overflow-y: auto;
+    overflow-x: hidden;
+    padding-right: 6px;
+}
+
+.diamond-wrap::-webkit-scrollbar {
+    width: 8px;
+}
+
+.diamond-wrap::-webkit-scrollbar-thumb {
+    background: rgba(255, 215, 106, 0.35);
+    border-radius: 999px;
 }
 
 .diamond-top {
